@@ -1,0 +1,10 @@
+<br>
+<br>
+<div>
+    <ul>
+        <li *ngFor = "let number of numbers; let i = index">
+            {{number}}
+            <button (click) = "remove(i)">Remove</button>
+        </li>
+    </ul>
+</div>
