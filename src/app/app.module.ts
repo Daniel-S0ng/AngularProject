@@ -10,6 +10,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { CounterComponent } from './counter/counter.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { HighlightDirective } from './highlight.directive';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HighlightDirective } from './highlight.directive';
     DataBindingComponent,
     CounterComponent,
     DirectivesComponent,
-    HighlightDirective
+    HighlightDirective,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
