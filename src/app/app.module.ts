@@ -18,12 +18,21 @@ import { HttpClientModule } from '@angular/common/http';
 import { TodoService } from './service/todo.service';
 import { MatTableModule } from '@angular/material/table';
 import { TableComponent } from './table/table.component';
+import { UppercasePipe } from './table/uppercase.pipe';
+import { HomepageComponent } from './homepage/homepage.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BootstrapDemoComponent } from './bootstrap-demo/bootstrap-demo.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    UppercasePipe,
+    HomepageComponent,
+    PageNotFoundComponent,
+    BootstrapDemoComponent,
     // ButtonComponent,
     // ButtonChildComponent,
     // DataBindingComponent,
